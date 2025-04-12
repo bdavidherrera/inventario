@@ -14,3 +14,6 @@ const getCategorias = async (req, res)=>{
 export const methodHTPP = {
     getCategorias
 }
+
+
+/*async, wait (Promesas) */
