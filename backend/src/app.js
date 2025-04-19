@@ -11,6 +11,9 @@ const app = express();
 /*setear un puerto ami web server */
 app.set("port",5000);
 
+/* Elemento entre la request y la responsive*/
+app.use(express.json());
+
 app.use(cors());
 
 /*routers */
