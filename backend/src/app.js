@@ -22,8 +22,7 @@ app.use("/api/categorias",categoriasRoutes)
 
 
 app.get("/",(req,res)=>{
-    res.send("REST API EN RENDER WITHOUT DATABASE ENDPOINTS")
-    res.send("Herrera Barajas Brayan David B191")
+    res.send("REST API EN RENDER WITHOUT DATABASE ENDPOINTS"+"Herrera Barajas Brayan David B191")
 });
 
 export default app;
