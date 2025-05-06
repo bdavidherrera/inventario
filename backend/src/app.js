@@ -20,4 +20,10 @@ app.use(cors());
 
 app.use("/api/categorias",categoriasRoutes)
 
+
+app.get("/",(req,res)=>{
+    res.send("REST API EN RENDER WITHOUT DATABASE ENDPOINTS")
+    res.send("Herrera Barajas Brayan David B191")
+});
+
 export default app;
